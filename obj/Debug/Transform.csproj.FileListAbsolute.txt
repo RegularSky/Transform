@@ -1,0 +1,10 @@
+C:\Users\a9209\source\repos\Transform\bin\Debug\Transform.exe.config
+C:\Users\a9209\source\repos\Transform\bin\Debug\Transform.exe
+C:\Users\a9209\source\repos\Transform\bin\Debug\Transform.pdb
+C:\Users\a9209\source\repos\Transform\obj\Debug\Transform.csproj.AssemblyReference.cache
+C:\Users\a9209\source\repos\Transform\obj\Debug\Transform.Form1.resources
+C:\Users\a9209\source\repos\Transform\obj\Debug\Transform.Properties.Resources.resources
+C:\Users\a9209\source\repos\Transform\obj\Debug\Transform.csproj.GenerateResource.cache
+C:\Users\a9209\source\repos\Transform\obj\Debug\Transform.csproj.CoreCompileInputs.cache
+C:\Users\a9209\source\repos\Transform\obj\Debug\Transform.exe
+C:\Users\a9209\source\repos\Transform\obj\Debug\Transform.pdb
