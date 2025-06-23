@@ -146,5 +146,25 @@ namespace Transform
             if (_kind != 5)
                 txtYard.Text = string.Format("{0:0.##########}", _value / 91.44);
         }
+        bool isCalculating = false; // 防止重複觸發事件
+
+        private void txtCM_TextChanged(object sender, EventArgs e)
+        {
+            if (isCalculating) return;
+
+            strInput = txtCM.Text;
+
+            if (double.TryParse(strInput, out douOutput))
+            {
+                isCalculating = true;
+                caculateAnswer(0, douOutput);
+                isCalculating = false;
+            }
+            else
+            {
+                txtInfo.Text = "請輸入數字";
+                txtCM.Text = "";
+            }
+        }
     }
 }
